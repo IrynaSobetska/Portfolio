@@ -1,55 +1,122 @@
-# Project Name
+# Portfolio
 
-<!-- describe your project -->
-
----
+## A simple portfolio for beginner front-end developer
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- create a new repo form the template template-html-css
+- protect main branch
+- turn on discussion
 
 ---
 
-<!-- copy this section once for each must-have user story -->
+### Title
 
-## user story
+> As a user I can see the title.
 
-<!-- each issue created from this section will have the `for: user story` label -->
+- The website needs title.
+- This feature developed on a brunch `title`.
 
-> "as a ... i can ... so that ..."
+#### HTML
 
-<!-- write any extra notes or description -->
+- add `title` tag
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+#### CSS
 
-### Logic: user story
+### Navigation bar
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+> As a user I can see the navigation bar.
 
-### Interface: user story
+- The website needs navigation bar.
+- This feature developed on a brunch `nav-bar`.
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+#### HTML
 
-### Interaction: user story
+- add `nav` tag
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+#### CSS
 
-### Documentation: user story
+- add `nav-bar` class to `nav`
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### Information about person
+
+> As a user I can see the information about the person.
+
+- The website needs description.
+- This feature developed on a brunch `info`.
+
+#### HTML
+
+- add `div` tag
+- add `h1` tag
+- add `p` tag
+
+#### CSS
+
+- add `info` class to `div`
+
+### Works photo
+
+> As a user I can see the works that person created.
+
+- The website need photos of finished works.
+- This feature developed on a brunch `works`.
+
+#### HTML
+
+- add `div` tag
+- add `img` tag
+- add `h2` tag
+
+#### CSS
+
+- add `pictures` class to `div`
+
+### Skills
+
+> As a user I can see the skills.
+
+- The website needs list / table or statistic that show persons skills.
+- This feature developed on a brunch `skills`.
+
+#### HTML
+
+- add `div` tag
+- add `h2` tag
+- add `img` tag
+
+#### CSS
+
+- add `skills` class to `div`
+
+### Contact me
+
+> As a user I can contact with person.
+
+- The website needs a form to contact with person.
+- This feature developed on a brunch `contact`.!!!!!!
+
+#### HTML
+
+- add `div` tag
+- add `form` tag
+- add `label` tag
+- add `input` tag
+- add `buttom` tag
+
+#### CSS
+
+- add `contact` class to `div`
+
+### Footer
+
+> As a user I can As a user I can see the footer.
+
+- The website needs footer.
+- This feature developed on a brunch `footer`.!!!!!!
+
+#### HTML
+
+- add `footer` tag
+
+#### CSS

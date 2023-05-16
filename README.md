@@ -1,10 +1,10 @@
-# Name of project
+# Portfolio
 
-> A longer description
+> A simple portfolio for beginner front-end developer.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Portfolio](#portfolio)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
@@ -22,7 +22,7 @@
 
 ## General info
 
-> A short description
+> A simple website about front-end developer skills.
 
 ## Screenshots
 
@@ -30,15 +30,14 @@
 
 ## Technologies
 
-- Node 14.16.0
 - VSC code
-- JavaScript
-- ...
-- ...
+- HTML
+- CSS
 
 ## Setup
 
-- `npm run start`
+- `git clone`
+- `git install`
 
 ## Code Examples
 
@@ -70,7 +69,7 @@ Project by freeCodeCamp.org
 
 ## Contact
 
-By [Name]
+By [Iryna](https://github.com/IrynaSobetska)
 
 ## Instructions for use
 
