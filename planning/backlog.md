@@ -9,22 +9,56 @@ create your own!
 
 > these are necessary for basic usability
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+### Title
+
+- [ ] As a user I can see the title.
+  - There is a title.
+
+### Navigation bar
+
+- [ ] As a user I can see the navigation bar.
+  - There is a navigation bar.
+
+### Information about person
+
+- [ ] As a user I can see the information about the person.
+- There is a short description about person and him/her portfolio.
+
+### Works photo
+
+- [ ] As a user I can see the works that person created.
+  - There is a works that person created.
+
+### Skills
+
+- [ ] As a user I can see the skills.
+  - There is a list / table or statistic that show persons skills.
+
+### Contact me
+
+- [ ] As a user I can contact with person.
+  - There is a form to contact with person.
+
+### Footer
+
+- [ ] As a user I can see the footer.
+  - There is a footer.
 
 ## Should-Haves
 
 > these will complete the user experience, but are not necessary
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+### Links to social media
+
+- [ ] As a user I can see social media.
+  - There are links to social media
 
 ## Could-Haves
 
 > would be really cool ... if there's time
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+### Photo
+
+- [ ] As a user I want to see the photo of person whose portfolio I'am looking
+      at.
+  - There is a photo
