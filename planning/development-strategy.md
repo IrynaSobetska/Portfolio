@@ -102,7 +102,7 @@
 - add `form` tag
 - add `label` tag
 - add `input` tag
-- add `buttom` tag
+- add `button` tag
 
 #### CSS
 

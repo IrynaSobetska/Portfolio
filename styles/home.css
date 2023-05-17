@@ -1,6 +1,11 @@
+:root {
+  --first-color: #666;
+  --secondary-color: #afafaf;
+}
+
 body {
-  background-color: rgb(197, 197, 197);
-  margin: 1%;
+  background-color: var(--secondary-color);
+  margin: 0;
   padding: 0;
 }
 
@@ -11,12 +16,24 @@ a {
 /* Header */
 header {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: space-between;
+  background: var(--first-color);
 }
 
 .logo {
   text-transform: uppercase;
-  margin: 0 20px;
+  margin-left: 20px;
+}
+
+nav {
+  display: flex;
+  margin: 20px;
+  position: relative;
+  top: 20px;
+}
+
+nav a {
+  padding: 10px;
 }
 
 /* Info */
@@ -24,14 +41,7 @@ header {
 .info {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  margin: 40px 40px 40px 0%;
-}
-
-.info-img {
-  background: #242424;
-  height: 300px;
-  width: 300px;
+  background-color: var(--secondary-color);
 }
 
 .info-img img {
@@ -40,12 +50,7 @@ header {
 }
 
 .info-text {
-  padding: 87px 26%;
-  position: relative;
-  top: 80px;
-  right: 8%;
-  background: #6a6a6a;
-  z-index: -1;
+  margin: 20px;
 }
 
 .info-text a {
@@ -56,7 +61,11 @@ header {
 /* Works */
 
 .portfolio {
-  margin: 100px 40px 40px 40px;
+  background: var(--first-color);
+}
+
+.portfolio h2 {
+  margin: 0;
 }
 
 .portfolio-img {
@@ -79,12 +88,13 @@ header {
 /* Skills */
 
 .skills {
-  margin: 40px;
+  background: var(--first-color);
+  padding: 40px;
 }
 
 .skills-blocks {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .skills-blocks-block {
@@ -97,5 +107,32 @@ header {
 }
 
 /* Contact */
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-text {
+  margin: 20px 0;
+}
+
+.contact-form form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input {
+  margin: 10px;
+}
+
+.contact-form textarea {
+  margin: 10px;
+}
+
+.contact-form button {
+  margin: 10px;
+}
 
 /* Footer */
