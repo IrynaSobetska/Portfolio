@@ -216,3 +216,7 @@ footer {
   margin: 5px 2px;
   border-radius: 50%;
 }
+
+span {
+  display: none;
+}
