@@ -1,12 +1,18 @@
 :root {
-  --first-color: #666;
-  --secondary-color: #afafaf;
+  --first-color: #023436;
+  --secondary-color: #fbaf00;
 }
 
 body {
-  background-color: var(--secondary-color);
+  background-color: var(--first-color);
   margin: 0;
   padding: 0;
+  font-family: "Roboto Mono", monospace;
+  color: var(--secondary-color);
+}
+
+body img {
+  filter: grayscale(50%);
 }
 
 a {
@@ -18,6 +24,11 @@ header {
   display: flex;
   justify-content: space-between;
   background: var(--first-color);
+  align-items: baseline;
+}
+
+header a {
+  color: var(--secondary-color);
 }
 
 .logo {
@@ -28,8 +39,6 @@ header {
 nav {
   display: flex;
   margin: 20px;
-  position: relative;
-  top: 20px;
 }
 
 nav a {
@@ -42,47 +51,72 @@ nav a {
   display: flex;
   justify-content: center;
   background-color: var(--secondary-color);
+  color: var(--first-color);
+}
+
+.info-img {
+  height: 400px;
 }
 
 .info-img img {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  position: relative;
+  top: 20px;
 }
 
 .info-text {
   margin: 20px;
+  padding: 5%;
 }
 
-.info-text a {
+.info-text-link {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.info-text-link a {
+  color: var(--secondary-color);
+  background-color: var(--first-color);
+  padding: 10px;
+  border-radius: 3%;
 }
 
 /* Works */
 
 .portfolio {
   background: var(--first-color);
+  padding: 40px;
 }
 
 .portfolio h2 {
-  margin: 0;
+  margin: 20px 0;
 }
 
 .portfolio-img {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.portfolio-img :hover {
+  filter: grayscale(0%);
 }
 
 .portfolio-img img {
   margin: 10px;
-  height: 300px;
-  width: 400px;
+  height: 260px;
 }
 
-.portfolio a {
-  margin: 20px;
+.portfolio-img-link {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.portfolio-img-link a {
+  margin: 20px;
+  color: var(--first-color);
+  background-color: var(--secondary-color);
+  border-radius: 3%;
+  padding: 10px;
 }
 
 /* Skills */
@@ -92,9 +126,13 @@ nav a {
   padding: 40px;
 }
 
+.skills h2 {
+  margin: 0;
+}
+
 .skills-blocks {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .skills-blocks-block {
@@ -102,37 +140,79 @@ nav a {
 }
 
 .skills-blocks-block img {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
 }
 
 /* Contact */
 
 .contact {
+  background-color: var(--secondary-color);
   display: flex;
   justify-content: center;
+  color: var(--first-color);
+  padding: 50px;
 }
 
 .contact-text {
-  margin: 20px 0;
+  padding: 50px;
+  font-size: larger;
 }
 
 .contact-form form {
-  padding: 20px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
 }
 
 .contact-form input {
   margin: 10px;
+  background-color: var(--secondary-color);
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-color: var(--first-color);
+  height: 30px;
+  width: 300px;
 }
 
 .contact-form textarea {
   margin: 10px;
+  background-color: var(--secondary-color);
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-color: var(--first-color);
+  height: 200px;
+  width: 300px;
 }
 
 .contact-form button {
   margin: 10px;
+  width: max-content;
+  background-color: var(--first-color);
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 3%;
+  padding: 10px;
+  font-size: medium;
 }
 
 /* Footer */
+
+footer {
+  background-color: var(--first-color);
+  display: flex;
+  justify-content: center;
+  padding: auto;
+  padding: 20px;
+}
+
+.fa {
+  color: var(--secondary-color);
+  padding: 20px;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
