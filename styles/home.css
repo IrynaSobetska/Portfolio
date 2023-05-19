@@ -1,6 +1,6 @@
 :root {
-  --first-color: #023436;
-  --secondary-color: #fbaf00;
+  --first-color: #fff;
+  --secondary-color: #f29d09;
 }
 
 body {
@@ -9,10 +9,6 @@ body {
   padding: 0;
   font-family: "Roboto Mono", monospace;
   color: var(--secondary-color);
-}
-
-body img {
-  filter: grayscale(50%);
 }
 
 a {
