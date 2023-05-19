@@ -26,7 +26,8 @@
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./public/screenshot1.png)
+![Example screenshot](./public/screenshot2.png)
 
 ## Technologies
 
@@ -41,9 +42,38 @@
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```html
+<header>
+  <!-- Logo -->
+  <div class="logo">
+    <h1>Portfolio</h1>
+  </div>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#Portfolio">Portfolio</a>
+    <a href="#Skills">Skills</a>
+    <a href="#Contact">Contact</a>
+  </nav>
+</header>
+```
+
+```css
+header {
+  display: flex;
+  justify-content: space-between;
+  background: var(--first-color);
+  align-items: baseline;
+}
+
+header a {
+  color: var(--secondary-color);
+}
+
+.logo {
+  text-transform: uppercase;
+  margin-left: 20px;
+}
 ```
 
 ## Features
@@ -61,11 +91,11 @@ To-do list:
 
 ## Status
 
-Project is: _in progress_
+Project is: _done_
 
 ## Inspiration
 
-Project by freeCodeCamp.org
+Project by nicepage.com
 
 ## Contact
 
